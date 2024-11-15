@@ -4,7 +4,7 @@ import "./assets/loginandreigster.css";
 
 function Register() {
 
-  const baseURL = import.meta.env.VITE_REACT_APP_API_BASE_URL;
+  const baseURL = "http://localhost:8080/";
 
   const navigate = useNavigate();
   const [massage, setMessage] = useState('');
