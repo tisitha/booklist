@@ -4,7 +4,7 @@ import "./assets/loginandreigster.css";
 
 function Register() {
 
-  const baseURL = "https://breakable-vicky-tisitha-fd7acbb9.koyeb.app/8080";
+  const baseURL = "https://breakable-vicky-tisitha-fd7acbb9.koyeb.app";
 
   const navigate = useNavigate();
   const [massage, setMessage] = useState('');
