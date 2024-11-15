@@ -1,0 +1,39 @@
+.cards{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    width: 600px;
+    align-items: center;
+}
+
+.buttons_card{
+    display: flex;
+}
+
+.buttons_card button{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    color: white;
+    background-color: rgb(59, 59, 59);
+    border-radius: 5px;
+}
+
+.buttons_card button:hover{
+    background-color: rgb(29, 29, 29);
+}
+
+.title_card{
+    margin-left: 5px;
+}
+
+.title_card h2{
+    margin: 0%;
+    font-family: cursive;
+}
+
+.title_card p{
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
