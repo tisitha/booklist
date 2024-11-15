@@ -4,7 +4,7 @@ import "./assets/loginandreigster.css";
 
 function Register() {
 
-  const baseURL = "breakable-vicky-tisitha-fd7acbb9.koyeb.app/8080/";
+  const baseURL = import.meta.env.VITE_REACT_APP_API_BASE_URL;
 
   const navigate = useNavigate();
   const [massage, setMessage] = useState('');
